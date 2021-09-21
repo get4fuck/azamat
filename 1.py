@@ -1,0 +1,5 @@
+print ('Введите текст')
+text=input()
+f=open('55.txt','w')
+f.write(text)
+f.close()
